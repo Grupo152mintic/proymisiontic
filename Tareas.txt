@@ -1,0 +1,5 @@
+header (banner)=>	John
+servicios		Rolando
+noticias  (api)=>	German
+integrantes(Json)=>	Hollman
+footer			Rolando
