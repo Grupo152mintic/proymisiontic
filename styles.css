@@ -1,0 +1,137 @@
+body{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    width: 1200px;
+    background-color: rgb(61, 139, 242);
+    margin: 0px auto;
+}
+.contenedor-servicios{
+    width: 1200;
+    background-color: turquoise;
+}
+.cabecera{
+    background-color: rgb(90, 189, 242);
+    height: auto;
+}
+.contenedor-menu{
+    background-color: rgb(39, 233, 230);
+    width: 100%;
+    display: flex;
+}
+.contenedor-titulo{
+    width: 100%;
+    text-align: center;
+}
+.nav-lista{
+    width: 100%;
+    padding: 0.3em;
+    text-align: end;
+}
+.main-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-menu__item{
+    line-height: 3.5;
+}
+.main-menu__link{
+    font-size: 0.95;
+}
+.contenedor-imagen{
+    background-color: rgb(159, 200, 200);
+}
+.imagen-texto{
+    margin: 0;
+    padding: 10% 0;
+    text-align: center;
+}
+.servicios{
+    background-color:  rgb(38, 67, 196);
+}
+.columnas{
+    background-color: rgb(61, 139, 242);
+    width: 33%;
+    height: 400px;
+    display: inline-table;
+    margin-top: 5px;
+    text-align: center;
+}
+.servicios-texto{
+    margin: 0;
+    background: rgb(225, 231, 139);
+    font-weight: bold;
+    text-align: center;
+}
+.imagen-servicios{
+    font-size: 200px;
+}
+.servicio-contenido{
+    padding: 0.5em 0;
+}
+.noticias{
+    background-color: #f0e98b;
+}
+.noticias-texto{
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.noticias > div {
+    margin-bottom: 2px;
+}
+.noticias-contenido{
+    width: 100%;
+    background-color: #d1363c;
+    display: flex;
+}
+.noticias-contenido > div {
+    margin: 0 6px;
+}
+.noticias-datos {
+    width: 49%;
+    height: 100%;
+    background-color: rgb(38, 67, 196);
+    display: inline-flex;
+}
+.noticias-imagen{
+    margin: 10px 0;
+    padding: 0 4px;
+}
+.noticias-titular{
+    color: #d3f5ed;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+.equipo{
+    background-color: #f0e98b;
+}
+.equipos-titulo{
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.equipos-columnas{
+    width: 24%;
+    display: inline-table;
+    margin: 5px 4px 0;
+    text-align: center;
+}
+.contenido-equipos{
+    padding: 0.5em 0;
+}
+.footer-contenido{
+    align-content: center;
+    display: inline-flex;
+}
+.footer-informacion{
+    width: 49%;
+}
+.footer-contacto{
+    align-content: right;
+}
