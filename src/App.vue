@@ -1,63 +1,61 @@
 <template>
   <div id="app">
-    
-  <div class= "container-fluid">
-    <div class= "row justify-content- mb-5" v-for="(item, index) of equipo" :key="index">
-      <team-card v-bind: member="item" >
-
-
-      </team-card>
-  
-  </div>
-  </div>
-
-
+    <div class="container-fluid">
+      <div class="row justify-content- mb-5">
+        <div class="col mt-5" v-for="(item, index) of team" :key="index">
+          <team-card v-bind:member="item"> </team-card>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import TeamCard from './components/TeamCard.vue';
+import TeamCard from "./components/TeamCard.vue";
 
 export default {
-  components: { TeamCard },
   name: "App",
+  components: {
+    TeamCard,
+  },
 
   data() {
-    return;
-    equipo[
-      ({
-        codigo: 1,
-        nombre: "John Hollman Gómez",
-        descripcion:
-          "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
-        rol: "desarrollador",
-        imagen: "./images/jhg.jpg",
-      },
-      {
-        codigo: 2,
-        nombre: "Jose Yara",
-        descripcion:
-          "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
-        rol: "desarrollador",
-        imagen: "./images/joseyara.jpg",
-      },
-      {
-        codigo: 3,
-        nombre: "John Lopez",
-        descripcion:
-          "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
-        rol: "desarrollador",
-        imagen: "./images/johnlopez.jpg",
-      },
-      {
-        codigo: 4,
-        nombre: "German Ruiz",
-        descripcion:
-          "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
-        rol: "desarrollador",
-        imagen: "./images/germanruiz.jpg",
-      })
-    ];
+    return {
+      team: [
+        {
+          codigo: 1,
+          nombre: "John Hollman Gómez",
+          descripcion:
+            "Experiencia en proyectos con alto grado de especialización y autonomía, Sistemas de gestión documental, Historia clínica sistematizada, plataformas de transacciones y consultas en línea, implementación y sostenimiento de CRM y ERP, diseño, Desarrollo de aplicativos para diferentes áreas, Coordinación y manejo de personal, gran actitud de liderazgo, motivado por los resultados, compromiso, facilidad y empatía para la atención de usuarios, responsable, comprometido, fácil y rápido aprendizaje, con bases sólidas y humanas, crítico, intuitivo, respetuoso, constructivo, líder y emprendedor capaz de desarrollar y trabajar en equipo con un alto sentido de competitividad, eficacia y eficiencia.",
+          rol: "desarrollador",
+          imagen: "@/images/JHG.jpg",
+        },
+        {
+          codigo: 2,
+          nombre: "Jose Yara",
+          descripcion:
+            "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
+          rol: "desarrollador",
+          imagen: "./images/joseyara.jpg",
+        },
+        {
+          codigo: 3,
+          nombre: "John Lopez",
+          descripcion:
+            "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
+          rol: "desarrollador",
+          imagen: "./images/johnlopez.jpg",
+        },
+        {
+          codigo: 4,
+          nombre: "German Ruiz",
+          descripcion:
+            "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
+          rol: "desarrollador",
+          imagen: "./images/germanruiz.jpg",
+        },
+      ],
+    };
   },
 };
 </script>

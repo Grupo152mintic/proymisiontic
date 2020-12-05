@@ -1,22 +1,18 @@
 
 <template>
-  <div>
-    <div class="col mt-5">
-      <!-- <div class="card text-white bg-danger"> -->
-        <div class="card border-info mb-3">  
-        <div class="d-flex justify-content-center p-2">
-          <img src="member.imagen" alt="Fotogarfia de Equipo" />
-        </div>
-        <div class="card-body text-info">
-          <h5 class="card-title">{{ member.name }}</h5>
-          <p class="card-text">{{ member.descripcion }}</p>
-          <p class="card-text"><span>Rol: </span>{{ member.rol }}</p>
-          <p class="card-text"><span>Código: </span>{{ member.codigo }}</p>
-        </div>
-        <div class="card-footer bg-white">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
+  <!-- <div class="card text-white bg-danger"> -->
+  <div class="card border-info mb-3">
+    <div class="d-flex justify-content-center p-2">
+      <img src="member.imagen" alt="Fotogarfia del Equipo" />
+    </div>
+    <div class="card-body text-info">
+      <h5 class="card-title">{{ member.name }}</h5>
+      <p class="card-text">{{ member.descripcion }}</p>
+      <p class="card-text"><span>Rol: </span>{{ member.rol }}</p>
+      <p class="card-text"><span>Código: </span>{{ member.codigo }}</p>
+    </div>
+    <div class="card-footer bg-white">
+      <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
 </template>
