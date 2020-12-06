@@ -27,3 +27,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Pasos de desarrollo
+1. Se crea el directorio de trabajo
+2. Plantilla de Bootstrap lista
+3. Se crea la componente del footer
+4. Se crea la componente de la sección de equipo de trabajo (miembros)
