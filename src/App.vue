@@ -47,7 +47,7 @@ export default {
           descripcion:
             "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
           rol: "Desarrollador Full-Stack",
-          imagen: "./images/johnlopez.jpg",
+          image: "./images/johnlopez.jpg",
         },
         {
           codigo: 2,
@@ -55,7 +55,7 @@ export default {
           descripcion:
             "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
           rol: "Desarrollador Full-Stack",
-          imagen: "./images/joseyara.jpg",
+          image: "./images/joseyara.jpg",
         },
         {
           codigo: 3,
@@ -63,7 +63,7 @@ export default {
           descripcion:
             "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
           rol: "Desarrollador Full-Stack y Scrum Máster",
-          imagen: "./images/johnlopez.jpg",
+          image: "./images/johnlopez.jpg",
         },
         {
           codigo: 4,
@@ -71,7 +71,7 @@ export default {
           descripcion:
             "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
           rol: "Arquitecto de Software",
-          imagen: "./images/germanruiz.jpg",
+          image: "./images/germanruiz.jpg",
         },
       ],
     };
