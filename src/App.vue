@@ -26,7 +26,7 @@ export default {
           codigo: 1,
           nombre: "John Hollman Gómez",
           descripcion:
-            "Experiencia en proyectos con alto grado de especialización y autonomía, Sistemas de gestión documental, Historia clínica sistematizada, plataformas de transacciones y consultas en línea, implementación y sostenimiento de CRM y ERP, diseño, Desarrollo de aplicativos para diferentes áreas, Coordinación y manejo de personal, gran actitud de liderazgo, motivado por los resultados, compromiso, facilidad y empatía para la atención de usuarios, responsable, comprometido, fácil y rápido aprendizaje, con bases sólidas y humanas, crítico, intuitivo, respetuoso, constructivo, líder y emprendedor capaz de desarrollar y trabajar en equipo con un alto sentido de competitividad, eficacia y eficiencia.",
+            "Experiencia en proyectos con alto grado de especialización y autonomía, Sistemas de gestión documental, Historia clínica sistematizada",
           rol: "desarrollador",
           imagen: "images/JHG.jpg",
         },
