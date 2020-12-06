@@ -11,7 +11,7 @@
             class="d-flex container-fluid justify-content-end pb-2 mt-n2"
         >
             <button type="button" class="btn btn-outline-info btn-dark">
-            GitHub
+            <a href="https://github.com/Grupo152mintic" target="_blank">GitHub</a>
             </button>
         </div>
         </div>
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "PageFooter",
+  name: "PageFooter"
 };
 </script>
 

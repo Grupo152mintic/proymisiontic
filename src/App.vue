@@ -1,12 +1,23 @@
 <template>
   <div id="app">
-    <div id="team">
-      <div class="card-deck">
-        <div class="card text-white bg-primary mb-4" v-for="(item, index) of team" :key="index">
-          <team-card v-bind:member="item"></team-card>
+    <header-comp></header-comp>
+    <main>
+      <section-services></section-services>
+      <div id="news" class="container-fluid">
+        <section-news></section-news>
+      </div>
+      <div id="team">
+        <div class="card-deck">
+          <div
+            class="card text-white bg-primary mb-4"
+            v-for="(item, index) of team"
+            :key="index"
+          >
+            <team-card v-bind:member="item"></team-card>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
     <page-footer></page-footer>
   </div>
 </template>
@@ -14,16 +25,22 @@
 <script>
 import PageFooter from "./components/PageFooter.vue";
 import TeamCard from "./components/TeamCard.vue";
+import SectionNews from "./components/SectionNews.vue";
+import SectionServices from "./components/SectionServices.vue";
+import HeaderComp from "./components/HeaderComp.vue";
 
 export default {
   name: "App",
   components: {
     PageFooter,
     TeamCard,
+    SectionNews,
+    SectionServices,
+    HeaderComp,
   },
   data() {
     return {
-      team:[
+      team: [
         {
           codigo: 1,
           nombre: "John Hollman Gómez",

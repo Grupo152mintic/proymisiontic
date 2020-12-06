@@ -33,3 +33,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 2. Plantilla de Bootstrap lista
 3. Se crea la componente del footer
 4. Se crea la componente de la sección de equipo de trabajo (miembros)
+5. Se crea la componente de la sección de noticias (o anuncios de películas)
