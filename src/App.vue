@@ -28,13 +28,13 @@ export default {
           descripcion:
             "Experiencia en proyectos con alto grado de especialización y autonomía, Sistemas de gestión documental, Historia clínica sistematizada, plataformas de transacciones y consultas en línea, implementación y sostenimiento de CRM y ERP, diseño, Desarrollo de aplicativos para diferentes áreas, Coordinación y manejo de personal, gran actitud de liderazgo, motivado por los resultados, compromiso, facilidad y empatía para la atención de usuarios, responsable, comprometido, fácil y rápido aprendizaje, con bases sólidas y humanas, crítico, intuitivo, respetuoso, constructivo, líder y emprendedor capaz de desarrollar y trabajar en equipo con un alto sentido de competitividad, eficacia y eficiencia.",
           rol: "desarrollador",
-          imagen: "@/images/JHG.jpg",
+          imagen: "images/JHG.jpg",
         },
         {
           codigo: 2,
-          nombre: "Jose Yara",
+          nombre: "José Romero",
           descripcion:
-            "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
+            "Lic. en matemáticas  de la UPN, apasionado por la implementación de y creación de apletts o manipulables",
           rol: "desarrollador",
           imagen: "./images/joseyara.jpg",
         },
@@ -42,15 +42,14 @@ export default {
           codigo: 3,
           nombre: "John Lopez",
           descripcion:
-            "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
+            "Ingeniero electrónico con énfasis en buenas prácticas de gestión de servicios y gestión de proyectos",
           rol: "desarrollador",
           imagen: "./images/johnlopez.jpg",
         },
         {
           codigo: 4,
           nombre: "German Ruiz",
-          descripcion:
-            "|IT |Gerencia de Proyectos| Ingeniero de Sistemas| Director de Sistemas| Gestión de Proyectos| Planificación Estratégica | Liderazgo de Equipos | Innovación Tecnológica| Jefe de Sistemas|Manejo de Indicadores|",
+          descripcion:"Estudiante de Matemáticas y Estadística de la Universidad del Tolima y apasionado por el conocimiento. Sus pasatiempos se destacan en leer, tocar guitarra, escuchar música y aprender cosas nuevas.",
           rol: "desarrollador",
           imagen: "./images/germanruiz.jpg",
         },

@@ -1,11 +1,18 @@
 
 <template>
   <!-- <div class="card text-white bg-danger"> -->
+
   <div class="card border-info mb-3">
     <div class="d-flex justify-content-center p-2">
-      <img src="member.imagen" alt="Fotogarfia del Equipo" />
+ 
+      <img
+        src="member.imagen"
+        class="card-img-top"
+        alt="Fotogarfia del Equipo"
+      />
     </div>
     <div class="card-body text-info">
+    
       <h5 class="card-title">{{ member.name }}</h5>
       <p class="card-text">{{ member.descripcion }}</p>
       <p class="card-text"><span>Rol: </span>{{ member.rol }}</p>
