@@ -23,12 +23,12 @@ export default {
     return {
       team: [
         {
-          codigo: 1,
-          nombre: "John Hollman Gómez",
-          descripcion:
+          'codigo': 1,
+          'nombre': "John Hollman Gómez",
+          'descripcion':
             "Experiencia en proyectos con alto grado de especialización y autonomía, Sistemas de gestión documental, Historia clínica sistematizada",
-          rol: "desarrollador",
-          imagen: "images/JHG.jpg",
+          'rol': "desarrollador",
+          'imagen': "./images/JHG.jpg",
         },
         {
           codigo: 2,
