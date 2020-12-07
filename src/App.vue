@@ -36,7 +36,7 @@ export default {
           descripcion:
             "Lic. en matemáticas  de la UPN, apasionado por la implementación de y creación de apletts o manipulables",
           rol: "desarrollador",
-          imagen: "./images/joseyara.jpg",
+          imagen: "./images/joseromero.jpg",
         },
         {
           codigo: 3,
